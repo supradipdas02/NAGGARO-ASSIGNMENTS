@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Updates</title>
+  </head>
+  <body class="bg-gradient-to-r from-purple-500 to-pink-500">
+    <h1 class="text-center text-4xl m-4 p-2 text-white">Cricket Updates</h1>
+    <div class="flex justify-center">
+      <button
+        id="fetch-btn"
+        class="text-white px-4 py-2 rounded-xl bg-green-400 active:scale-95 transition-all duration-300"
+      >
+        Get Results
+      </button>
+    </div>
+    <div
+      id="cards"
+      class="flex flex-wrap p-10 items-center justify-around"
+    ></div>
+    <script src="script.js"></script>
+  </body>
+</html>
