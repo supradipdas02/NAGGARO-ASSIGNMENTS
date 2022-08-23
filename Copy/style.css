@@ -5,32 +5,35 @@
     width: 800px;
     gap: 2rem;
     margin-bottom: 3rem;
-  }
-  #copybtn,
-  #pastebtn {
+}
+
+#copybtn,
+#pastebtn {
     width: 100px;
     margin: auto;
     font-size: 1.2rem;
-    background:brown;
+    background: brown;
     color: white;
     padding: 6px;
     border-radius: 10px;
     border: transparent;
     cursor: pointer;
-  }
-  #inputtext,
-  #outputtext {
+}
+
+#inputtext,
+#outputtext {
     padding: 1rem;
     font-size: 1.2rem;
     border-radius: 10px;
     background: blanchedalmond;
-  }
-  .hide{
-      display: none;
-  }
-  body{
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-      color: aliceblue;
-  }
-  
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: aliceblue;
+}
